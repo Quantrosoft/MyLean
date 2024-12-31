@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "MyDownloader": {
+      "commandName": "Project",
+      "commandLineArgs": "--tickers \"GBP_USD\"\r\n--data-downloader DukascopyDataDownloader\r\n--data-type Quote\r\n--security-type Cfd\r\n--market Dukascopy\r\n--resolution \"Tick\"\r\n--start-date 20140101\r\n--end-date 20241225\r\n",
+      "workingDirectory": "C:\\Users\\HMz\\source\\QuantConnect\\MyLean\\MyDownloader"
+    }
+  }
+}

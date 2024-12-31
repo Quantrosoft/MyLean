@@ -1,0 +1,707 @@
+2024-12-25T14:32:52.1078389Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T14:32:52.2227313Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T14:32:52.2631852Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T14:32:52.2632536Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T14:32:52.2633246Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T14:32:52.2640255Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T14:32:52.2642127Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T14:32:52.2644667Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T14:32:52.2673975Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T14:32:52.2700144Z TRACE:: Extensions.IsDirectoryEmpty(): directory '../../../MyData\market-hours' not found or empty
+2024-12-25T14:39:18.9942244Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T14:39:19.0304681Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T14:39:19.1275722Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T14:39:19.1276291Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T14:39:19.1276792Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T14:39:19.1283634Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T14:39:19.1285406Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T14:39:19.1286745Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T14:39:19.1361470Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T14:39:19.1389173Z TRACE:: Extensions.IsDirectoryEmpty(): directory './MyData\market-hours' not found or empty
+2024-12-25T14:39:58.4794452Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T14:39:58.5110461Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T14:39:58.5507695Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T14:39:58.5508111Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T14:39:58.5508498Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T14:39:58.5514779Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T14:39:58.5516139Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T14:39:58.5516999Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T14:39:58.5587680Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T14:39:58.9602824Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 15.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T14:40:47.1883006Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T14:40:47.2241415Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T14:40:47.2642309Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T14:40:47.2642906Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T14:40:47.2643337Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T14:40:47.2651317Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T14:40:47.2652717Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T14:40:47.2653618Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T14:40:47.2683742Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T14:40:47.6823181Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 24.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T14:58:40.0558280Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T14:58:40.0913472Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T14:58:40.1323126Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T14:58:40.1323681Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T14:58:40.1324151Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T14:58:40.1330734Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T14:58:40.1332882Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T14:58:40.1333827Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T14:58:40.1404673Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T14:58:40.5468171Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 24.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T15:03:07.3975000Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T15:03:07.4352200Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T15:03:07.4757194Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T15:03:07.4757775Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T15:03:07.4758251Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T15:03:07.4764683Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T15:03:07.4766152Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T15:03:07.4767109Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T15:03:07.4796459Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T15:03:07.8670185Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T15:26:38.4264434Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T15:26:38.4610752Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T15:26:38.5017150Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T15:26:38.5018120Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T15:26:38.5018617Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T15:26:38.5025171Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T15:26:38.5026669Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T15:26:38.5027684Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T15:26:38.5100966Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T15:26:38.9128825Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T15:34:59.8088763Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T15:34:59.8420272Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T15:34:59.9163435Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T15:34:59.9163964Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T15:34:59.9164418Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T15:34:59.9170882Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T15:34:59.9172412Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T15:34:59.9173445Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T15:34:59.9243535Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T15:35:00.2974804Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T15:36:12.5770964Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-25T15:36:12.8174464Z TRACE:: DownloaderDataProvider.RunDownload(): 25,00% complete (1 out of 4 symbols)
+2024-12-25T15:36:12.8175530Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for EUR_USD BA at Tick resolution, covering the period from 23.12.2024 00:00:00 to 01.01.2030 00:00:00.
+2024-12-25T15:36:12.8177564Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T15:36:45.1364759Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T15:36:45.1735557Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T15:36:45.2180751Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T15:36:45.2181298Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T15:36:45.2181856Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T15:36:45.2189633Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T15:36:45.2191367Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T15:36:45.2192384Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T15:36:45.2222669Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T15:36:45.6380313Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T15:38:51.0242924Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T15:38:51.0590522Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T15:38:51.1012566Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T15:38:51.1013169Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T15:38:51.1013629Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T15:38:51.1056230Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T15:38:51.1057846Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T15:38:51.1059178Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T15:38:51.1092812Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T15:38:51.5165102Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T15:39:33.9956365Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T15:39:34.0267849Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T15:39:34.0669392Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T15:39:34.0669877Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T15:39:34.0670465Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T15:39:34.0676895Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T15:39:34.0678336Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T15:39:34.0679280Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T15:39:34.0708129Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T15:39:34.4775027Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T15:43:22.0594859Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T15:43:22.0931617Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T15:43:22.1339111Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T15:43:22.1339690Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T15:43:22.1340056Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T15:43:22.1346406Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T15:43:22.1347813Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T15:43:22.1348774Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T15:43:22.1421413Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T15:43:22.5532323Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T16:01:32.1165371Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T16:01:32.1497593Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T16:01:32.1903338Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T16:01:32.1903934Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T16:01:32.1904306Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T16:01:32.1910978Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T16:01:32.1912401Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T16:01:32.1913295Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T16:01:32.1986386Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T16:01:32.6064003Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T16:02:15.8608119Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-25T16:05:02.5918255Z TRACE:: Downloading data for EUR_USD BA. Please hold on...
+2024-12-25T16:27:06.7185226Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T16:27:06.7511561Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T16:27:06.7918123Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T16:27:06.7918645Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T16:27:06.7919110Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T16:27:06.7925599Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T16:27:06.7927129Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T16:27:06.7928076Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T16:27:06.7996143Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T16:27:07.1774710Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T16:27:30.7355367Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T16:27:30.7685772Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T16:27:30.8090681Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T16:27:30.8091364Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T16:27:30.8091799Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T16:27:30.8098503Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T16:27:30.8100577Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T16:27:30.8101998Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T16:27:30.8171910Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T16:27:31.2010544Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T16:27:50.1493794Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-25T16:31:11.5049042Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T16:31:11.5387967Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T16:31:11.5794052Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T16:31:11.5794618Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T16:31:11.5795077Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T16:31:11.5801689Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T16:31:11.5803186Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T16:31:11.5804160Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T16:31:11.5877776Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T16:31:11.9639625Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T16:31:32.1629473Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-25T16:31:39.5186284Z TRACE:: DownloaderDataProvider.RunDownload(): 25,00% complete (1 out of 4 symbols)
+2024-12-25T16:31:40.3916840Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for EUR_USD BA at Tick resolution, covering the period from 23.12.2024 00:00:00 to 01.01.2030 00:00:00.
+2024-12-25T16:40:15.8744077Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T16:40:15.9103109Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T16:40:15.9497281Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T16:40:15.9497852Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T16:40:15.9498291Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T16:40:15.9504976Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T16:40:15.9506716Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T16:40:15.9507968Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T16:40:15.9576938Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T16:40:16.3500051Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 23.12.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T16:40:45.7037255Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-25T16:49:08.6758080Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T16:49:08.7101003Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T16:49:08.7499592Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T16:49:08.7500721Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T16:49:08.7501175Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T16:49:08.7508823Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T16:49:08.7510207Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T16:49:08.7511076Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T16:49:08.7581388Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T16:49:09.1603836Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.01.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T17:08:09.5789337Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T17:08:09.5886400Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T17:08:09.6122506Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T17:08:09.6123067Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T17:08:09.6123530Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T17:08:09.6129979Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T17:08:09.6131319Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T17:08:09.6132194Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T17:08:09.6159301Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T17:08:09.9402908Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.01.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T17:10:59.2483298Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T17:10:59.2574410Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T17:10:59.2793641Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T17:10:59.2794183Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T17:10:59.2794620Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T17:10:59.2800752Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T17:10:59.2802151Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T17:10:59.2802991Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T17:10:59.2828620Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T17:10:59.6007610Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.01.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T17:12:29.8612823Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T17:12:29.8709447Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T17:12:29.8946466Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T17:12:29.8947594Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T17:12:29.8948711Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T17:12:29.8955319Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T17:12:29.8956664Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T17:12:29.8957488Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T17:12:29.8984478Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T17:12:30.2496283Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.01.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T19:11:11.1042909Z TRACE:: Downloading data for EUR_USD BA. Please hold on...
+2024-12-25T19:11:11.1106824Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-25T19:11:16.1042667Z TRACE:: Downloading data for EUR_USD BA. Please hold on...
+2024-12-25T19:11:39.6717293Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-25T19:11:39.6718670Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for EUR_USD BA at Tick resolution, covering the period from 01.01.2024 00:00:00 to 01.01.2030 00:00:00.
+2024-12-25T19:11:39.6720386Z TRACE:: All downloads completed in 7149,42 seconds.
+2024-12-25T19:56:01.5725427Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T19:56:01.6066039Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T19:56:01.6523432Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T19:56:01.6524040Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T19:56:01.6524547Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T19:56:01.6531243Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T19:56:01.6532984Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T19:56:01.6534314Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T19:56:01.6565895Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T19:56:02.0548483Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.01.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T19:56:35.4525382Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T19:56:35.4863898Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T19:56:35.5270514Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T19:56:35.5271042Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T19:56:35.5271509Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T19:56:35.5278395Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T19:56:35.5280138Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T19:56:35.5281330Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T19:56:35.5330138Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T19:56:35.9451415Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.01.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T19:59:55.4709711Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-25T19:59:55.5069976Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-25T19:59:55.5469554Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-25T19:59:55.5470251Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-25T19:59:55.5470821Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-25T19:59:55.5477752Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-25T19:59:55.5479438Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-25T19:59:55.5480622Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-25T19:59:55.5510643Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-25T19:59:55.9419350Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.01.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T20:00:02.2739924Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.01.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-25T20:00:08.9026197Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.01.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-26T08:23:54.7339412Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-26T08:23:54.7449264Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-26T08:23:54.7710671Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-26T08:23:54.7711431Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-26T08:23:54.7711949Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-26T08:23:54.7719635Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-26T08:23:54.7721007Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-26T08:23:54.7721884Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-26T08:23:54.7782113Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-26T08:23:55.1369856Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: AUD_CAD BA, Resolution: Tick, StartUtc: 01.01.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-26T08:23:55.4325661Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: AUD_CAD BA, Resolution: Tick, StartUtc: 01.01.2024 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-26T08:23:55.4329131Z TRACE:: All downloads completed in 0,30 seconds.
+2024-12-26T21:01:59.7563340Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-26T21:01:59.7670524Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-26T21:01:59.7903797Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-26T21:01:59.7904361Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-26T21:01:59.7905632Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-26T21:01:59.7913001Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-26T21:01:59.7914344Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-26T21:01:59.7915171Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-26T21:01:59.7963556Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-26T21:02:00.1298675Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.01.2000 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-26T22:21:13.8290262Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-26T22:21:13.8394128Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-26T22:21:13.8630837Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-26T22:21:13.8631367Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-26T22:21:13.8631794Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-26T22:21:13.8638081Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-26T22:21:13.8639453Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-26T22:21:13.8640283Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-26T22:21:13.8666739Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-26T22:21:14.2168344Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.01.2014 00:00:00, EndUtc: 01.01.2030 00:00:00, TickType: Quote
+2024-12-27T17:57:15.4119838Z TRACE:: Downloading data for EUR_USD BA. Please hold on...
+2024-12-27T17:57:15.4208720Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-27T17:57:20.4183360Z TRACE:: Downloading data for EUR_USD BA. Please hold on...
+2024-12-27T18:05:17.6582467Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-27T18:05:17.6584335Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for EUR_USD BA at Tick resolution, covering the period from 01.01.2014 00:00:00 to 01.01.2030 00:00:00.
+2024-12-27T18:05:17.6586620Z TRACE:: All downloads completed in 71043,44 seconds.
+2024-12-30T15:14:26.3976586Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:14:26.4402704Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:14:26.5027852Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:14:26.5028444Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:14:26.5028990Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:14:26.5036071Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:14:26.5037818Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:14:26.5038925Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:14:26.5071558Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:14:26.8985238Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:14:50.0404149Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:14:50.0787636Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:14:50.1218335Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:14:50.1218898Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:14:50.1219342Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:14:50.1226015Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:14:50.1227447Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:14:50.1228394Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:14:50.1304088Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:14:50.5440429Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:15:27.3587478Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:15:27.3947996Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:15:27.4367582Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:15:27.4368129Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:15:27.4368586Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:15:27.4375144Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:15:27.4376763Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:15:27.4377792Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:15:27.4451512Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:15:27.8586137Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:16:52.8094525Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:16:52.8420718Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:16:52.8867221Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:16:52.8867798Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:16:52.8868374Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:16:52.8875307Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:16:52.8877099Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:16:52.8878378Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:16:52.8908156Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:16:53.2974413Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:21:01.5361004Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:21:01.5708774Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:21:01.6116309Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:21:01.6117038Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:21:01.6117530Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:21:01.6125208Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:21:01.6126760Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:21:01.6127741Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:21:01.6193389Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:21:02.0113070Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:21:15.7254689Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:21:15.7572277Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:21:15.7977098Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:21:15.7977674Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:21:15.7978163Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:21:15.7984722Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:21:15.7986262Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:21:15.7987249Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:21:15.8016985Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:21:16.2133909Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:21:34.3874256Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:21:34.4215578Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:21:34.4629249Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:21:34.4629797Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:21:34.4642899Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:21:34.4683381Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:21:34.4685025Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:21:34.4685994Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:21:34.4717442Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:21:34.8762501Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:26:18.0044390Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:26:18.0382769Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:26:18.0800423Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:26:18.0800828Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:26:18.0801200Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:26:18.0810602Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:26:18.0812163Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:26:18.0813037Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:26:18.0843589Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:26:18.4923348Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:30:27.9350604Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:30:27.9685883Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:30:28.0099535Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:30:28.0100063Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:30:28.0100479Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:30:28.0107094Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:30:28.0108595Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:30:28.0109571Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:30:28.0139758Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:30:28.4325675Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:33:48.8266518Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:33:48.8599923Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:33:48.9009050Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:33:48.9009711Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:33:48.9010167Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:33:48.9016843Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:33:48.9018662Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:33:48.9020023Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:33:48.9049270Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:33:49.2994942Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:34:35.3907457Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:34:35.4249687Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:34:35.4662934Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:34:35.4663566Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:34:35.4664049Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:34:35.4670644Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:34:35.4672188Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:34:35.4673154Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:34:35.4743980Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:34:35.8856221Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:34:44.6466058Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:34:44.6825564Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:34:44.7249108Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:34:44.7249598Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:34:44.7250039Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:34:44.7299253Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:34:44.7301075Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:34:44.7302215Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:34:44.7336503Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:34:45.1715659Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:36:08.5537058Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:36:08.5880231Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:36:08.6300844Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:36:08.6301263Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:36:08.6301683Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:36:08.6308151Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:36:08.6309571Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:36:08.6310437Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:36:08.6355579Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:36:09.0383189Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:42:54.2491408Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:42:54.2840225Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:42:54.3259739Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:42:54.3260299Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:42:54.3260771Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:42:54.3267584Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:42:54.3269432Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:42:54.3270457Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:42:54.3343194Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:42:54.7325092Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.12.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:43:28.8348360Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T15:43:33.3159460Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-30T15:43:33.3160642Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP_USD BA at Tick resolution, covering the period from 01.12.2023 00:00:00 to 05.12.2023 00:00:00.
+2024-12-30T15:43:33.3162541Z TRACE:: All downloads completed in 38,59 seconds.
+2024-12-30T15:49:04.1295549Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:49:04.1648629Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:49:04.2064181Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:49:04.2064760Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:49:04.2065208Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:49:04.2071784Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:49:04.2073243Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:49:04.2074230Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:49:04.2150296Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:49:04.6206101Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:49:12.1733829Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T15:49:12.3802901Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-30T15:49:12.3803949Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP_USD BA at Tick resolution, covering the period from 30.11.2023 00:00:00 to 05.12.2023 00:00:00.
+2024-12-30T15:49:12.3805092Z TRACE:: All downloads completed in 7,76 seconds.
+2024-12-30T15:49:43.8681281Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:49:43.9026132Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:49:43.9433751Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:49:43.9434327Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:49:43.9435280Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:49:43.9441756Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:49:43.9443294Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:49:43.9444232Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:49:43.9516494Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:49:44.3488097Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:50:27.6812291Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T15:50:28.2294673Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-30T15:50:28.2295603Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP_USD BA at Tick resolution, covering the period from 30.11.2023 00:00:00 to 05.12.2023 00:00:00.
+2024-12-30T15:50:28.2296843Z TRACE:: All downloads completed in 43,88 seconds.
+2024-12-30T15:53:55.0370536Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:53:55.0721237Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:53:55.1135031Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:53:55.1135804Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:53:55.1136311Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:53:55.1143352Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:53:55.1145036Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:53:55.1146155Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:53:55.1219442Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:53:55.5197747Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T15:54:26.1247914Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T15:54:26.1600062Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T15:54:26.2014282Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T15:54:26.2014963Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T15:54:26.2015434Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T15:54:26.2021919Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T15:54:26.2023427Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T15:54:26.2024347Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T15:54:26.2099219Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T15:54:26.6070010Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:04:35.7584329Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:04:35.7924760Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:04:35.8350523Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:04:35.8358373Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:04:35.8371891Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:04:35.8402285Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:04:35.8403938Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:04:35.8404843Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:04:35.8439226Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:04:36.2432058Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:05:17.4900071Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T16:05:17.9719475Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-30T16:05:17.9720306Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP_USD BA at Tick resolution, covering the period from 30.11.2023 00:00:00 to 05.12.2023 00:00:00.
+2024-12-30T16:05:17.9721446Z TRACE:: All downloads completed in 41,73 seconds.
+2024-12-30T16:07:39.4594641Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:07:39.4937570Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:07:39.5354522Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:07:39.5354974Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:07:39.5355348Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:07:39.5361939Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:07:39.5363426Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:07:39.5364389Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:07:39.5435534Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:07:39.9604643Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:08:12.0997802Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T16:08:12.5954902Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-30T16:08:12.5955730Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP_USD BA at Tick resolution, covering the period from 30.11.2023 00:00:00 to 05.12.2023 00:00:00.
+2024-12-30T16:08:12.5956976Z TRACE:: All downloads completed in 32,64 seconds.
+2024-12-30T16:14:09.8571774Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:14:09.8923545Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:14:09.9378710Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:14:09.9379623Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:14:09.9380009Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:14:09.9386499Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:14:09.9387922Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:14:09.9388797Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:14:09.9418203Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:14:25.9180606Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:14:25.9569858Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:14:26.0004303Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:14:26.0004964Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:14:26.0005421Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:14:26.0012257Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:14:26.0014868Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:14:26.0015966Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:14:26.0097103Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:14:26.4113933Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:15:12.5043498Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T16:19:35.7943315Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:19:35.8371476Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:19:35.8793794Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:19:35.8794523Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:19:35.8795097Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:19:35.8801847Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:19:35.8803757Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:19:35.8804843Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:19:35.8882733Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:19:36.2903716Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:19:36.5600302Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:19:36.5602295Z TRACE:: All downloads completed in 0,27 seconds.
+2024-12-30T16:19:49.4808602Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:19:49.5153519Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:19:49.5569336Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:19:49.5569906Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:19:49.5570376Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:19:49.5576884Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:19:49.5578456Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:19:49.5579440Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:19:49.5653948Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:19:49.9787561Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:28:45.1571964Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:28:45.1912949Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:28:45.2329079Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:28:45.2329658Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:28:45.2330122Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:28:45.2376347Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:28:45.2378577Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:28:45.2379880Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:28:45.2411475Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:28:45.6490160Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:29:39.0490639Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T16:30:40.4225392Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:30:40.4573058Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:30:40.4980822Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:30:40.4981452Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:30:40.4981993Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:30:40.4990258Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:30:40.4991969Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:30:40.4992974Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:30:40.5062584Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:30:40.9126828Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:32:19.8871266Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:32:19.9234332Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:32:19.9653690Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:32:19.9654119Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:32:19.9654467Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:32:19.9660692Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:32:19.9662093Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:32:19.9662934Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:32:19.9730514Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:32:20.3889102Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:33:25.0005585Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T16:35:17.9042886Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:35:17.9399652Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:35:17.9809941Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:35:17.9810598Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:35:17.9811011Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:35:17.9818477Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:35:17.9819913Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:35:17.9820857Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:35:17.9893292Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:35:18.3823949Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:35:26.0424957Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:35:26.0776404Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:35:26.1186730Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:35:26.1187359Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:35:26.1187837Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:35:26.1194606Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:35:26.1196861Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:35:26.1197948Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:35:26.1273147Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:35:26.5137161Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:36:17.8712698Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T16:37:23.5509020Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:37:23.5868326Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:37:23.6280984Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:37:23.6281657Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:37:23.6282143Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:37:23.6288964Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:37:23.6290821Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:37:23.6291848Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:37:23.6365694Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:37:24.0410308Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:37:24.3410433Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:37:24.3412238Z TRACE:: All downloads completed in 0,30 seconds.
+2024-12-30T16:37:40.0548814Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T16:37:40.0912532Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T16:37:40.1322647Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T16:37:40.1323191Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T16:37:40.1323621Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T16:37:40.1330062Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T16:37:40.1331513Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T16:37:40.1332418Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T16:37:40.1404048Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T16:37:40.4991441Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T16:38:27.3888244Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T17:58:27.1574035Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T17:58:27.1928175Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T17:58:27.2340649Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T17:58:27.2341281Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T17:58:27.2341744Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T17:58:27.2348472Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T17:58:27.2350244Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T17:58:27.2351994Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T17:58:27.2381209Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T17:58:27.6618323Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T17:59:02.0511979Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T17:59:02.4979826Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-30T17:59:02.4980897Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP_USD BA at Tick resolution, covering the period from 30.11.2023 00:00:00 to 05.12.2023 00:00:00.
+2024-12-30T17:59:02.4981606Z TRACE:: All downloads completed in 34,84 seconds.
+2024-12-30T18:26:03.5670145Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T18:26:03.6039037Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T18:26:03.6453468Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T18:26:03.6454066Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T18:26:03.6454433Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T18:26:03.6461274Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T18:26:03.6462887Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T18:26:03.6463770Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T18:26:03.6536671Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T18:26:04.0983837Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T18:26:42.3257429Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T18:31:49.2218538Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-30T18:31:50.1728248Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP_USD BA at Tick resolution, covering the period from 30.11.2023 00:00:00 to 05.12.2023 00:00:00.
+2024-12-30T18:31:53.2647806Z TRACE:: All downloads completed in 349,16 seconds.
+2024-12-30T18:39:03.7991103Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T18:39:03.8357108Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T18:39:03.8775135Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T18:39:03.8775692Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T18:39:03.8776151Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T18:39:03.8827299Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T18:39:03.8829166Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T18:39:03.8830303Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T18:39:03.8863668Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T18:39:04.2900051Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T18:39:41.7155319Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T18:40:03.1681175Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-30T18:40:03.1682054Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP_USD BA at Tick resolution, covering the period from 30.11.2023 00:00:00 to 05.12.2023 00:00:00.
+2024-12-30T18:40:03.1682655Z TRACE:: All downloads completed in 58,88 seconds.
+2024-12-30T18:40:32.4922130Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T18:40:32.5288213Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T18:40:32.5702277Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T18:40:32.5702819Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T18:40:32.5703282Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T18:40:32.5709983Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T18:40:32.5711854Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T18:40:32.5713046Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T18:40:32.5788319Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T18:40:32.9950296Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 30.11.2023 00:00:00, EndUtc: 05.12.2023 00:00:00, TickType: Quote
+2024-12-30T18:41:14.9539402Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-30T18:41:15.6205498Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-30T18:41:15.6206383Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP_USD BA at Tick resolution, covering the period from 30.11.2023 00:00:00 to 05.12.2023 00:00:00.
+2024-12-30T18:41:15.6207017Z TRACE:: All downloads completed in 42,63 seconds.
+2024-12-30T21:39:50.8545951Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-30T21:39:50.8928496Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-30T21:39:50.9388764Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-30T21:39:50.9389437Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-30T21:39:50.9389940Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-30T21:39:50.9398461Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-30T21:39:50.9400241Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-30T21:39:50.9401222Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyDownloader
+2024-12-30T21:39:50.9514233Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-30T21:39:51.3269888Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD BA, Resolution: Tick, StartUtc: 01.01.2014 00:00:00, EndUtc: 25.12.2024 00:00:00, TickType: Quote
+2024-12-31T03:41:32.0986323Z TRACE:: Downloading data for GBP_USD BA. Please hold on...
+2024-12-31T03:41:32.1082134Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-31T03:41:37.1620084Z TRACE:: Downloading data for GBP_USD BA. Please hold on...
+2024-12-31T03:53:33.6970904Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
+2024-12-31T03:53:33.6971968Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP_USD BA at Tick resolution, covering the period from 01.01.2014 00:00:00 to 25.12.2024 00:00:00.
+2024-12-31T03:53:33.6972706Z TRACE:: All downloads completed in 22422,37 seconds.

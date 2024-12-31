@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "MyLauncher": {
+      "commandName": "Project"
+    }
+  }
+}
