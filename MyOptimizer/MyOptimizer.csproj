@@ -38,11 +38,6 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="config.example.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MyAlgo.CSharp\MyAlgo.CSharp.csproj" />
     <ProjectReference Include="..\MyAlgo.Python\MyAlgo.Python.csproj" />
   </ItemGroup>

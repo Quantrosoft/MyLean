@@ -78,11 +78,11 @@ public class Ultron : QCAlgorithm
     private int period2 = 5;
     private int period3 = 32;
     private int period4 = 9;
-    private decimal Ma3Ma4DiffMaxPercent = 0.28m;
-    private decimal Ma1Ma2MinPercent = 0.05m;
-    private decimal Ma1Ma2MaxPercent = 0.19m;
-    private int take_profit_pips = 18;
-    private int stop_loss_pips = 103;
+    private decimal ma3Ma4DiffMaxPercent = 0.28m;
+    private decimal ma1Ma2MinPercent = 0.05m;
+    private decimal mMa1Ma2MaxPercent = 0.19m;
+    private int takeProfitPips = 18;
+    private int stopLossPips = 103;
     private IndicatorBase<IndicatorDataPoint> ma1;
     private IndicatorBase<IndicatorDataPoint> ma2;
     private IndicatorBase<IndicatorDataPoint> ma3;
@@ -110,9 +110,9 @@ public class Ultron : QCAlgorithm
         ma3 = SMA(symbol, period3, Resolution.Hour, Field.Close);
         ma4 = SMA(symbol, period4, Resolution.Hour, Field.Close);
 
-        mMa3ma4DiffMaxVal = Ma3Ma4DiffMaxPercent / 100;
-        mMa1Ma2MinVal = Ma1Ma2MinPercent / 100;
-        mMa1Ma2MaxVal = Ma1Ma2MaxPercent / 100;
+        mMa3ma4DiffMaxVal = ma3Ma4DiffMaxPercent / 100;
+        mMa1Ma2MinVal = ma1Ma2MinPercent / 100;
+        mMa1Ma2MaxVal = mMa1Ma2MaxPercent / 100;
 
         SetWarmUp(Math.Max(period1, Math.Max(period2, Math.Max(period3, period4))));
         var minPriceVariation = (double)Securities[symbol].SymbolProperties.MinimumPriceVariation;
@@ -192,14 +192,14 @@ public class Ultron : QCAlgorithm
         OrderTicket marketOrder = null;
         if (tradeType == TradeType.Buy)
         {
-            stopLossPrice = Securities[symbol].BidPrice - stop_loss_pips * 0.0001m;
-            takeProfitPrice = Securities[symbol].BidPrice + take_profit_pips * 0.0001m;
+            stopLossPrice = Securities[symbol].BidPrice - stopLossPips * 0.0001m;
+            takeProfitPrice = Securities[symbol].BidPrice + takeProfitPips * 0.0001m;
             marketOrder = MarketOrder(symbol, quantity);
         }
         else if (tradeType == TradeType.Sell)
         {
-            stopLossPrice = Securities[symbol].AskPrice + stop_loss_pips * 0.0001m;
-            takeProfitPrice = Securities[symbol].AskPrice - take_profit_pips * 0.0001m;
+            stopLossPrice = Securities[symbol].AskPrice + stopLossPips * 0.0001m;
+            takeProfitPrice = Securities[symbol].AskPrice - takeProfitPips * 0.0001m;
             marketOrder = MarketOrder(symbol, -quantity);
         }
 

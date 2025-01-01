@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MyOptimizer": {
+      "commandName": "Project",
+      "commandLineArgs": "--optimizer-config ..\\..\\config.json"
+    }
+  }
+}
