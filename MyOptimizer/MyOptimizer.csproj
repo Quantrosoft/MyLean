@@ -33,6 +33,9 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="log.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="DotNetZip" Version="1.16.0" />
     <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.6.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />

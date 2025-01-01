@@ -2,7 +2,7 @@
   "profiles": {
     "MyOptimizer": {
       "commandName": "Project",
-      "commandLineArgs": "--optimizer-config ..\\..\\config.json"
+      "workingDirectory": "C:\\Users\\HMz\\source\\QuantConnect\\MyLean\\MyOptimizer"
     }
   }
 }

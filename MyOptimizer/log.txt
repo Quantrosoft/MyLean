@@ -1,0 +1,10 @@
+2025-01-01T16:23:19.6405051Z TRACE:: Config.Get(): Configuration key not found. Key: data-channel - Using default value: 
+2025-01-01T16:23:19.6417163Z TRACE:: Config.Get(): Configuration key not found. Key: optimization-id - Using default value: 1254c73a-550d-492a-8055-c4c0c0136ef4
+2025-01-01T16:23:19.8192273Z TRACE:: Config.Get(): Configuration key not found. Key: out-of-sample-max-end-date - Using default value: 
+2025-01-01T16:23:19.8193315Z TRACE:: Config.GetValue(): out-of-sample-days - Using default value: 0
+2025-01-01T16:23:19.8194487Z TRACE:: Config.Get(): Configuration key not found. Key: optimization-launcher - Using default value: ConsoleLeanOptimizer
+2025-01-01T16:23:19.8259408Z TRACE:: Config.GetValue(): optimization-update-interval - Using default value: 10
+2025-01-01T16:23:19.8275338Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\MyLean\MyOptimizer\opt-1254c73a-550d-492a-8055-c4c0c0136ef4
+2025-01-01T16:23:19.8280058Z TRACE:: Config.GetValue(): estimate - Using default value: False
+2025-01-01T16:23:19.8862247Z TRACE:: LeanOptimizer.LaunchLeanForParameterSet(OID 1254c73a-550d-492a-8055-c4c0c0136ef4): launched backtest '6b29d95d-fc04-4b5e-b4af-79b284717f0a' with parameters 'Ma1Ma2MinPercent:0.02,Ma3Ma4DiffMaxPercent:0.20,MMa1Ma2MaxPercent:0.15,Period1:2,Period2:2,Period3:20,Period4:4,StopLossPips:100,TakeProfitPips:15'
+2025-01-01T16:23:19.8905503Z TRACE:: LeanOptimizer.LaunchLeanForParameterSet(OID 1254c73a-550d-492a-8055-c4c0c0136ef4): launched backtest 'b2bd9c18-8735-4506-9cb2-100229405b19' with parameters 'Ma1Ma2MinPercent:0.02,Ma3Ma4DiffMaxPercent:0.20,MMa1Ma2MaxPercent:0.15,Period1:2,Period2:2,Period3:20,Period4:4,StopLossPips:105,TakeProfitPips:15'

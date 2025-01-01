@@ -29,7 +29,7 @@
    "data-folder": "../../../MyData",
 
    // debugging configuration - options for debugging-method LocalCmdLine, VisualStudio, Debugpy, PyCharm
-   "debugging": true,
+   "debugging": false,
    "debugging-method": "VisualStudio",
 
    // location of a python virtual env to use libraries from

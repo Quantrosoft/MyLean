@@ -1,4 +1,8 @@
 {
+   //"estimate": true,
+   "lean-binaries-location": "../MyLauncher/bin/Debug/MyLauncher.exe",
+   "maximum-concurrent-backtests": 2,
+
    // optional: algorithm class selector
    "algorithm-type-name": "Ultron",
 
@@ -99,7 +103,7 @@
          "step": 1
       },
       {
-         "name": "stopLossPips",
+         "name": "StopLossPips",
          "min": 100,
          "max": 160,
          "step": 5
