@@ -1,121 +1,145 @@
-import numpy as np
+import math
 from AlgorithmImports import *
 
 
 class Ultron(QCAlgorithm):
-    status: str = "IDLE"
+    class TradeType:
+        Buy = "Buy"
+        Sell = "Sell"
 
     def Initialize(self):
         # Algorithm setup
-        self.SetStartDate(2024, 7, 1)  # Backtest start date
-        self.SetEndDate(2025, 1, 1)  # Backtest end date
-        self.SetCash(10_000)  # Starting cash
+        self.SetStartDate(2023, 11, 20)  # Backtest start date
+        self.SetEndDate(2024, 12, 29)  # Backtest end date
+        self.SetCash(10000)  # Starting cash
 
         # Add GBP/USD hourly data
-        self.symbol = self.add_cfd(
-            "GBP_USD", Resolution.Hour, Market.DUKASCOPY, True, 500
-        ).Symbol
+        cfd = self.AddCfd("GBP_USD", Resolution.Hour, Market.Dukascopy, True, 500)
+        # cfd = self.AddForex("GBPUSD", Resolution.Hour, Market.Oanda, True, 500)
+        self.symbol = cfd.Symbol
 
-        # Parameters
-        self.direction = "Both"  # "Long" or "Short" or "Both"
-        self.period1 = 5
-        self.period2 = 3
-        self.period3 = 28
+        self.mBars = RollingWindow[QuoteBar](5)
+
+        # Initialize parameters and indicators
+        self.period1 = 7
+        self.period2 = 5
+        self.period3 = 32
         self.period4 = 9
-        self.ma3_ma4_diff_max_percent = 0.28
-        self.ma1_ma2_min_percent = 0.07
-        self.ma1_ma2_max_percent = 0.24
-        self.take_profit_pips = 20
-        self.stop_loss_pips = 122
+        self.ma3Ma4DiffMaxPercent = 0.28
+        self.ma1Ma2MinPercent = 0.05
+        self.ma1Ma2MaxPercent = 0.19
+        self.takeProfitPips = 18
+        self.stopLossPips = 103
 
-        # Initialize indicators
-        self.ma1 = self.lwma(self.symbol, self.period1, Resolution.Hour, Field.Open)
-        self.ma2 = self.lwma(self.symbol, self.period2, Resolution.Hour, Field.Close)
-        self.ma3 = self.sma(self.symbol, self.period3, Resolution.Hour, Field.Close)
-        self.ma4 = self.sma(self.symbol, self.period4, Resolution.Hour, Field.Close)
+        self.ma1 = self.LWMA(self.symbol, self.period1, Resolution.Hour, Field.Open)
+        self.ma2 = self.LWMA(self.symbol, self.period2, Resolution.Hour, Field.Close)
+        self.ma3 = self.SMA(self.symbol, self.period3, Resolution.Hour, Field.Close)
+        self.ma4 = self.SMA(self.symbol, self.period4, Resolution.Hour, Field.Close)
 
-        self.status = "IDLE"  # STATUS_IDLE or STATUS_TRADING
-        pass
+        self.mMa3ma4DiffMaxVal = self.ma3Ma4DiffMaxPercent / 100
+        self.mMa1Ma2MinVal = self.ma1Ma2MinPercent / 100
+        self.mMa1Ma2MaxVal = self.ma1Ma2MaxPercent / 100
+
+        self.SetWarmUp(max(self.period1, self.period2, self.period3, self.period4))
+        self.mDigits = int(
+            math.log10(
+                1
+                / float(
+                    self.Securities[self.symbol].SymbolProperties.MinimumPriceVariation
+                )
+            )
+        )
+
+        self.direction = "Both"
 
     def OnData(self, data):
-        if (
-            not self.ma1.IsReady
-            or not self.ma2.IsReady
-            or not self.ma3.IsReady
-            or not self.ma4.IsReady
+        self.mUtc = data.UtcTime
+
+        # Add the current QuoteBar to the rolling window
+        if self.symbol in data.QuoteBars:
+            self.mBars.Add(data.QuoteBars[self.symbol])
+
+        if self.IsWarmingUp or not (
+            self.ma1.IsReady
+            and self.ma2.IsReady
+            and self.ma3.IsReady
+            and self.ma4.IsReady
+            and self.mBars.IsReady
         ):
             return
 
-        # Current indicator values
-        ma1_value = self.ma1.Current.Value
-        ma2_value = self.ma2.Current.Value
-        ma3_value = self.ma3.Current.Value
-        ma4_value = self.ma4.Current.Value
+        ma1ma2 = self.ma1.Current.Value - self.ma2.Current.Value
+        ma2ma1 = self.ma2.Current.Value - self.ma1.Current.Value
+        ma3ma4Diff = abs(self.ma3.Current.Value - self.ma4.Current.Value)
 
-        # Derived values
-        ma1_ma2_diff = ma1_value - ma2_value
-        ma3_ma4_diff = abs(ma3_value - ma4_value)
-
-        # Ensure that trading conditions and direction are defined
-        if self.direction in ["Short", "Both"] and self.status == "IDLE":
-            # Short trade conditions
+        # Short trade conditions
+        if (self.direction in ["Short", "Both"]) and not self.Portfolio.Invested:
             if (
-                ma3_ma4_diff < self.ma3_ma4_diff_max_percent
-                and ma3_value > ma1_value
-                and ma3_value > ma2_value
-                and data[self.symbol].Close
-                < data[self.symbol].Open  # Price action check
-                and self.ma1_ma2_min_percent < ma1_ma2_diff < self.ma1_ma2_max_percent
+                ma3ma4Diff < self.mMa3ma4DiffMaxVal
+                and self.ma3.Current.Value > self.ma1.Current.Value
+                and self.ma3.Current.Value > self.ma2.Current.Value
+                and self.mBars[0].Bid.Close < self.mBars[1].Bid.Close
+                and self.mBars[1].Bid.Close < self.mBars[1].Bid.Open
+                and self.mMa1Ma2MinVal < ma1ma2 < self.mMa1Ma2MaxVal
             ):
-                self.PlaceOrder(TradeType.Sell)
+                self.PlaceOrder(self.TradeType.Sell)
 
-        if self.direction in ["Long", "Both"] and self.status == "IDLE":
-            # Long trade conditions
+        # Long trade conditions
+        if (self.direction in ["Long", "Both"]) and not self.Portfolio.Invested:
             if (
-                ma3_ma4_diff < self.ma3_ma4_diff_max_percent
-                and ma3_value < ma1_value
-                and ma3_value < ma2_value
-                and data[self.symbol].Close
-                > data[self.symbol].Open  # Price action check
-                and self.ma1_ma2_min_percent < -ma1_ma2_diff < self.ma1_ma2_max_percent
+                ma3ma4Diff < self.mMa3ma4DiffMaxVal
+                and self.ma3.Current.Value < self.ma1.Current.Value
+                and self.ma3.Current.Value < self.ma2.Current.Value
+                and self.mBars[0].Ask.Close > self.mBars[1].Ask.Close
+                and self.mBars[1].Ask.Close > self.mBars[1].Ask.Open
+                and self.mMa1Ma2MinVal < ma2ma1 < self.mMa1Ma2MaxVal
             ):
-                self.PlaceOrder(TradeType.Buy)
+                self.PlaceOrder(self.TradeType.Buy)
 
-    def PlaceOrder(self, trade_type):
-        quantity = self.CalculateOrderQuantity(
-            self.symbol, 0.01
-        )  # Example fixed quantity
-        stop_loss_price = None
-        take_profit_price = None
+    def PlaceOrder(self, tradeType):
+        quantity = self.CalculateOrderQuantity(self.symbol, 10.0)
+        stopLossPrice, takeProfitPrice = 0, 0
 
-        if trade_type == TradeType.Buy:
-            stop_loss_price = (
-                self.Securities[self.symbol].Price - self.stop_loss_pips * 0.0001
+        if tradeType == self.TradeType.Buy:
+            stopLossPrice = (
+                self.Securities[self.symbol].BidPrice - self.stopLossPips * 0.0001
             )
-            take_profit_price = (
-                self.Securities[self.symbol].Price + self.take_profit_pips * 0.0001
+            takeProfitPrice = (
+                self.Securities[self.symbol].BidPrice + self.takeProfitPips * 0.0001
             )
-            self.MarketOrder(self.symbol, quantity)
-        elif trade_type == TradeType.Sell:
-            stop_loss_price = (
-                self.Securities[self.symbol].Price + self.stop_loss_pips * 0.0001
+            marketOrder = self.MarketOrder(self.symbol, quantity)
+        elif tradeType == self.TradeType.Sell:
+            stopLossPrice = (
+                self.Securities[self.symbol].AskPrice + self.stopLossPips * 0.0001
             )
-            take_profit_price = (
-                self.Securities[self.symbol].Price - self.take_profit_pips * 0.0001
+            takeProfitPrice = (
+                self.Securities[self.symbol].AskPrice - self.takeProfitPips * 0.0001
             )
-            self.MarketOrder(self.symbol, -quantity)
+            marketOrder = self.MarketOrder(self.symbol, -quantity)
 
-        self.status = "TRADING"
+        self.StopMarketOrder(
+            self.symbol, -marketOrder.Quantity, round(stopLossPrice, self.mDigits)
+        )
 
-        # Log trade
-        self.Debug(
-            f"Placed {trade_type.name} order: Quantity={quantity}, \
-            StopLoss={stop_loss_price}, TakeProfit={take_profit_price}"
+        self.LimitOrder(
+            self.symbol, -marketOrder.Quantity, round(takeProfitPrice, self.mDigits)
         )
 
     def OnOrderEvent(self, orderEvent):
-        if orderEvent.Status == OrderStatus.Filled:
-            self.status = "IDLE"
+        self.mUtc = orderEvent.UtcTime
+
+        if orderEvent.Status == OrderStatus.Submitted:
+            return
+
+        order = self.Transactions.GetOrderById(orderEvent.OrderId)
+        if orderEvent.Status == OrderStatus.Filled and order.Type in [
+            OrderType.StopMarket,
+            OrderType.Limit,
+        ]:
+            openOrders = self.Transactions.GetOpenOrders()
+            for openOrder in openOrders:
+                if openOrder.Type in [OrderType.StopMarket, OrderType.Limit]:
+                    self.Transactions.CancelOrder(openOrder.Id)
 
     def OnEndOfAlgorithm(self):
         self.Log("Algorithm completed.")

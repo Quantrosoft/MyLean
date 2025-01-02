@@ -204,10 +204,10 @@ public class Ultron : QCAlgorithm
         }
 
         var stopLossOrder = StopMarketOrder(symbol, -marketOrder.Quantity, stopLossPrice);
-        //Math.Round(stopLossPrice, mDigits));
+        Math.Round(stopLossPrice, mDigits);
 
         var takeProfitOrder = LimitOrder(symbol, -marketOrder.Quantity, takeProfitPrice);
-        //Math.Round(takeProfitPrice, mDigits));
+        Math.Round(takeProfitPrice, mDigits);
     }
 
     public override void OnOrderEvent(OrderEvent orderEvent)

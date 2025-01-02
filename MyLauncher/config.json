@@ -9,31 +9,33 @@
    // For Python, the environment variable PYTHONNET_PYDLL must be set to the pythonxx.dll to be used, i.e:
    // C:\Users\xxx\AppData\Local\Programs\Python\Python39\python39.dll
 
-   "environment": "backtesting", // "live-paper", "backtesting", "live-interactive", "live-interactive-iqfeed"
+   // debugging configuration - options for debugging-method LocalCmdLine, VisualStudio, Debugpy, PyCharm
+   "debugging": true,
+   "debugging-method": "VisualStudio",
 
    // algorithm class selector
    "algorithm-type-name": "Ultron",
 
    // Algorithm language selector - options CSharp, Python
-   "algorithm-language": "CSharp",
-   //"algorithm-language": "Python",
+   //"algorithm-language": "CSharp",
+   "algorithm-language": "Python",
 
    //Physical DLL location
-   "algorithm-location": "QuantConnect.Algorithm.CSharp.dll",
-   //"algorithm-location": "../../../MyAlgo.Python/Ultron.py",
+   //"algorithm-location": "QuantConnect.Algorithm.CSharp.dll",
+   "algorithm-location": "../../../MyAlgo.Python/Ultron.py",
+
+   // "live-paper", "backtesting", "live-interactive", "live-interactive-iqfeed"
+   "environment": "backtesting",
 
    //Research notebook
    //"composer-dll-directory": ".",
 
-   // engine
+   // data path
    "data-folder": "../../../MyData",
-
-   // debugging configuration - options for debugging-method LocalCmdLine, VisualStudio, Debugpy, PyCharm
-   "debugging": false,
-   "debugging-method": "VisualStudio",
 
    // location of a python virtual env to use libraries from
    // path must contain a file named pyvenv.cfg
+   // Must be defined in environment variable "PYTHONNET_PYDLL"
    //"python-venv": "C:/Users/HMz/AppData/Local/Programs/Python/Python39",
 
    // handlers
